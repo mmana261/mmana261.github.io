@@ -1,9 +1,9 @@
-import { About } from "@/components/about";
+import { Research } from "@/components/research";
 
 export default function Home() {
   return (
    <div className="min-h-screen">
-      <About/>      
+      <Research/>      
    </div>
   );
 }
