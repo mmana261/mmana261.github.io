@@ -9,7 +9,7 @@ export default function ProfileImage() {
   return (
     <div
       onClick={() => setShowAlt(!showAlt)}
-      className="relative w-75 h-75 overflow-hidden rounded-full cursor-pointer"
+      className="relative w-75 h-75 overflow-hidden rounded-full"
     >
       <Image
         src="/pic_original.jpg"

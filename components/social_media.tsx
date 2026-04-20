@@ -1,16 +1,16 @@
 export default function SocialMedia() {
     return (
       <div className="flex flex-row items-center gap-2">
-          <a
+        <a
           href="https://www.linkedin.com/in/mmana261"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-8 h-8 flex items-center rounded-full overflow-hidden justify-center"
+          className="w-7 h-7 flex items-center rounded-full overflow-hidden justify-center bg-transparent"
         >
           <img
             src="/linkedin.png"
             alt="LinkedIn"
-            className="w-8 h-8 object-contain"
+            className="w-7 h-7 scale-120"
           />
         </a>
         <a
@@ -22,7 +22,7 @@ export default function SocialMedia() {
           <img
             src="/facebook.png"
             alt="Facebook"
-            className="w-7 h-7 object-contain"
+            className="w-7 h-7"
           />
         </a>
         </div>

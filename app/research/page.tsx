@@ -1,4 +1,4 @@
-import { Research } from "@/components/research";
+import { Research } from "./research";
 
 export default function Home() {
   return (

@@ -1,12 +1,9 @@
-/*skills page*/
-export default function Skills(){
+import { Skills } from "./skills";
+
+export default function Home() {
   return (
-    <div>
-      Skills
-    </div>
-
-
-
-
+   <div className="min-h-screen">
+      <Skills/>      
+   </div>
   );
 }

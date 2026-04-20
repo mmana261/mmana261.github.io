@@ -1,8 +1,8 @@
-/*CV page*/
-export default function CV(){
+import {CV} from "./cv"
+export default function Home(){
   return (
     <div>
-      CV
+      <CV/>
     </div>
 
 
