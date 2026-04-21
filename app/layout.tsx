@@ -28,7 +28,7 @@ export default function RootLayout({
       className={cn("h-full", "antialiased", "font-sans", geist.variable)}
       suppressHydrationWarning
     >
-      <body className={`${inter.className} min-h-full flex flex-col mt-[125px] px-[20vw]`}>
+      <body className={`${inter.className} min-h-screen flex flex-col px-[20vw]`}>
 
         <ThemeProvider
             attribute="class"
@@ -36,9 +36,11 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-          <NavigationBar></NavigationBar>
+          <NavigationBar/>
+          <main className="flex-1 pt-31">
           {children}
-          <footer className="p-6 mt-5 text-center text-sm text-muted-foreground">
+          </main>
+          <footer className="p-6 text-center text-sm text-muted-foreground">
           Copyright &copy; 2025.
           </footer>
         </ThemeProvider>

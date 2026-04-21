@@ -5,7 +5,7 @@ import { BookOpen } from "lucide-react";
 export function About(){
   return (
     <div>
-    <div className="relative flex flex-row items-start min-h-screen gap-25">
+    <div className="relative flex flex-row items-start gap-25">
       <div className="w-40 scale-80 sticky top-20">
         <ProfilePicture/>
       </div>

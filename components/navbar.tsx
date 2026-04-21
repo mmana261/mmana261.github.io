@@ -33,7 +33,7 @@ export function NavigationBar() {
     const pathname = usePathname();
     return (
         // <div className="w-full flex items-center justify-center mb-[75px]">
-        <div className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full flex items-center justify-between bg-white/70 dark:bg-black/70 backdrop-blur-lg px-[20vw] py-3">
+        <div className="fixed top-0 left-1/2 -translate-x-1/2 z-50 w-full h-18 flex items-center justify-between bg-white/70 dark:bg-black/70 backdrop-blur-lg px-[20vw]">
 
         <div className="w-full flex justify-center">
             <NavigationMenu>
