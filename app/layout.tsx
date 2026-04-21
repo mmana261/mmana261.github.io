@@ -28,7 +28,7 @@ export default function RootLayout({
       className={cn("h-full", "antialiased", "font-sans", geist.variable)}
       suppressHydrationWarning
     >
-      <body className={`${inter.className} min-h-full flex flex-col mt-[125px] mx-[225px]`}>
+      <body className={`${inter.className} min-h-full flex flex-col mt-[125px] px-[20vw]`}>
 
         <ThemeProvider
             attribute="class"
