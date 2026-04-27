@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  assetPrefix: './',
+  distDir: 'out',
 };
 
 export default nextConfig;
