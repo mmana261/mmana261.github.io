@@ -21,6 +21,8 @@ import {
 
 import { BookOpen } from "lucide-react";
 
+import Image from "next/image"
+
 
 const research_works = [
   {
@@ -61,6 +63,13 @@ export function ResearchWorks(){
           <Item key={index} variant="outline">
 
             <ItemContent>
+               <Image
+                        src="/allosteric_site.jpg"
+                        alt=""
+                        width={128}
+                        height={128}
+                        className="w-1/2 rounded-sm object-cover self-center"
+                      />
               <ItemTitle>
                 {work.title}
               </ItemTitle>
