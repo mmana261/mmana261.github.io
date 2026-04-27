@@ -5,9 +5,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
-  distDir: 'out',
-  assetPrefix: "/",
 };
 
 export default nextConfig;
