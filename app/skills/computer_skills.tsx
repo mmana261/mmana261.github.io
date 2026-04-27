@@ -33,7 +33,7 @@ const computer_skills = [
 
 export function ComputerSkills(){
   return(
-    <div className="flex flex-col gap-y-10 my-6">
+    <div className="flex flex-col items-start gap-y-10 my-6">
            {computer_skills.map((skill, index) => (
         <div
           key={index}

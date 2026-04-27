@@ -27,7 +27,7 @@ const skills = [
 
 export function TechnicalSkills(){
   return(
-    <div className="flex flex-col gap-y-10 my-6">
+    <div className="flex flex-col items-start gap-y-10 my-6">
       {skills.map((skill, index) => (
         <div
           key={index}
