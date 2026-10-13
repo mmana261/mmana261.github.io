@@ -32,6 +32,7 @@ const research_works = [
       </>
     ),
     image: "/allosteric_site.jpg",
+    imageAlt: "Allosteric site of E. coli aspartate ammonia-lyase",
     description: (
       <div className="space-y-1">
       <p>
@@ -66,7 +67,7 @@ export function ResearchWorks(){
             <ItemContent>
                <Image
                         src={work.image}
-                        alt={work.title}
+                        alt={work.imageAlt}
                         width={128}
                         height={128}
                         className="w-1/2 rounded-sm object-cover self-center"
