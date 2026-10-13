@@ -26,6 +26,11 @@ const languages = [
     title:"Korean",
     level:"Fluent",
     image:"/kr.png",
+  },
+  {
+    title:"German",
+    level:"Elementary",
+    image:"/de.png",
   }
 ]
 
